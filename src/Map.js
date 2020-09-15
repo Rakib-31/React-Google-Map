@@ -42,6 +42,7 @@ export class GoogleMap extends Component {
     });
 }
 
+
 //   closeWindow = props => {
 //     if (this.state.modal) {
 //       this.setState({
