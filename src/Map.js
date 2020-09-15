@@ -8,6 +8,7 @@ const mapSize = {
   height: '100%'
 };
 
+
 export class GoogleMap extends Component {
 
   constructor() {
