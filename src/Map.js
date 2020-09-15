@@ -95,12 +95,14 @@ export class GoogleMap extends Component {
         <ModalBody>
 
 
-            <div>
+            <div class="bg-light">
             <form onSubmit={this.handleSubmit}>
-              Coordinate: <input name="latlng" type="text" value={this.state.coord} onChange={this.handleChange}/><br/><br/>
-              Name:<input name="name" type="text" value={this.state.value} onChange={this.handleChange}/>
+              <label class="mt-4">Coordinate: </label>
+              <input class="mx-auto d-block" name="latlng" type="text" value={this.state.coord} onChange={this.handleChange}/><br/><br/>
+              <label>Name:</label>
+              <input class="mx-auto d-block" name="name" type="text" value={this.state.value} onChange={this.handleChange}/>
               <br/><br/>
-              <button type="submit" >Submit</button>
+              <button class="btn btn-success mx-auto d-block" type="submit" >Submit</button>
             </form>
 
           </div>
